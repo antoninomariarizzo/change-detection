@@ -61,7 +61,7 @@ If you use our code in a scientific publication, we would appreciate citations u
 @misc{rizzo2024:change_detection,
   author    = {Antonino Maria Rizzo},
   title     = {Change Detection Repository: CUSUM and CPM},
-  year      = {Year},
+  year      = {2024},
   url       = {https://github.com/antoninomariarizzo/change-detection},
 }
 ```
