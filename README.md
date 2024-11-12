@@ -14,9 +14,9 @@ In this context, we focus on detecting _abrupt_ and _permanent_ changes in a _un
 This repository implements two widely used CD methods: the _Cumulative Sum_ (CUSUM) [2] and the _Change-Point Model_ (CPM) [3, 4]. 
 We chose to implement these methods because both are _non-parametric_, meaning they can monitor data without assuming any specific distribution. 
 Specifically, CUSUM enables sequential monitoring for online analysis of data as it arrives. 
-On the other hand, CPM enables batch-wise monitoring, where all data is available upfront for offline analysis, resulting in lower _Detection Delays_, i.e., the difference between the true and predicted change points.
+On the other hand, CPM enables batch-wise monitoring, where all data is available upfront for offline analysis, resulting in better performance.
 
-Please note that a comprehensive assessment balancing the False Positive Rate and Detection Delay is outside the scope of this repository.
+Our CPM version is also compared with the version available in the _R_ library, showing that the difference between the two is negligible. Therefore, there is no need to install the R version.
 
 
 ### Install

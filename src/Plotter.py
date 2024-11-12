@@ -95,7 +95,7 @@ class Plotter:
                       title: str = None,
                       fname: str = None) -> None:
 
-        sum_abs_diff = np.sum(np.abs(stats1[min_obs-1:] - stats2[min_obs-1:-min_obs-1]))
+        sum_abs_diff = np.sum(np.abs(stats1[min_obs+1:] - stats2[min_obs:-min_obs-1]))
         print(f"Difference Ours and R versions: {sum_abs_diff}")
 
         plt.figure(figsize=(12, 4))

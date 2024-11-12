@@ -28,7 +28,7 @@ class CPM(ChangeDetector):
         """
         n_pts = len(data)
         change_points = []
-        stats = [0.] * (self.min_obs - 1)
+        stats = [0.] * self.min_obs
 
         # Evaluate each possible change point
         for cp in range(self.min_obs, n_pts - self.min_obs):
