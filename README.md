@@ -43,17 +43,6 @@ Additionally, `src/cpm_r_comparison.py` calls the _R_ implementation of CPM. Ple
 We also include **visualizations** to illustrate the performance of each method. Plotting functions can be found in `src/Plotter.py`.
 
 
-### References:
-
-[1] Basseville, M., and Nikiforov, I. _Detection of abrupt change: Theory and application._ Prentice-Hall, Inc. (1993).
-
-[2] Tartakovsky, A., Nikiforov, I., and Basseville, M. _Sequential analysis: Hypothesis testing and changepoint detection._ Chapman & Hall. (2014).
-
-[3] Ross, G., Tasoulis, D., and Adams, N. _Nonparametric monitoring of data streams for changes in location and scale._ Technometrics. (2012).
-
-[4] Ross, G. J. _Parametric and nonparametric sequential change detection in R: The cpm package._ Journal of Statistical Software. (2015).
-
-
 ### Citation
 
 If you use our code in a scientific publication, we would appreciate citations using the following format:
@@ -65,3 +54,14 @@ If you use our code in a scientific publication, we would appreciate citations u
   url       = {https://github.com/antoninomariarizzo/change-detection},
 }
 ```
+
+
+### References:
+
+[1] Basseville, M., and Nikiforov, I. _Detection of abrupt change: Theory and application._ Prentice-Hall, Inc. (1993).
+
+[2] Tartakovsky, A., Nikiforov, I., and Basseville, M. _Sequential analysis: Hypothesis testing and changepoint detection._ Chapman & Hall. (2014).
+
+[3] Ross, G., Tasoulis, D., and Adams, N. _Nonparametric monitoring of data streams for changes in location and scale._ Technometrics. (2012).
+
+[4] Ross, G. J. _Parametric and nonparametric sequential change detection in R: The cpm package._ Journal of Statistical Software. (2015).
