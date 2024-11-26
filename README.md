@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Change Detection Repository: <i>pyCUSUM</i> and <i>pyCPM</i></h1>  
+  <h1 align="center">Change Detection: <i>pyCUSUM</i> and <i>pyCPM</i></h1>  
 </p>
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
@@ -66,7 +66,7 @@ If you use our code in a scientific publication, we would appreciate citations u
 ```cit
 @misc{rizzo2024:change_detection,
   author    = {Antonino Maria Rizzo},
-  title     = {Change Detection Repository: CUSUM and CPM},
+  title     = {Change Detection: pyCUSUM and pyCPM},
   year      = {2024},
   url       = {https://github.com/antoninomariarizzo/change-detection},
 }
